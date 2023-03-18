@@ -1,0 +1,17 @@
+current directory: /Users/kojimanaoya/Applications/hotwire_sample/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+/Users/kojimanaoya/.rbenv/versions/3.1.2/bin/ruby -I /Users/kojimanaoya/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230317-53735-n5oj0w.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kojimanaoya/Applications/hotwire_sample/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/kojimanaoya/Applications/hotwire_sample/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/kojimanaoya/Applications/hotwire_sample/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230317-53735-d0olwk/debug
